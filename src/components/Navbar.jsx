@@ -8,7 +8,7 @@ export default function Header() {
         <nav>
             <ul>
                 <li><NavLink exact activeClassName="active" to="/"><h1>Todo</h1></NavLink> </li>
-                <li> <NavLink exact activeClassName="active" to="/uiz">Quiz</NavLink></li>
+                <li> <NavLink exact activeClassName="active" to="/quiz">Quiz</NavLink></li>
                 <li>  <NavLink exact activeClassName="active" to="/about">About</NavLink></li>
             </ul>
         </nav>

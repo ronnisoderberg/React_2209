@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Header from "../components/Header";
 import { decode } from "html-entities";
 
 export function Quiz() {
@@ -31,7 +30,6 @@ export function Quiz() {
   // ---------------------------------------------------------------------------------------------
   return (
     <div>
-      <Header />
       <h1>The question is: {decode(data.question)}</h1>
       {allAnswers.map((ans) => (
         <button type="button">{decode(ans)}</button>
